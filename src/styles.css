@@ -1,0 +1,30 @@
+:root {
+  --charcoal: #212529;
+  --main-font: "Poppins";
+  --heading-font: "Abril Fatface", sans-serif;
+}
+
+h1,
+h2 {
+  font-family: var(--heading-font);
+  color: var(--charcoal);
+}
+h3,
+h4,
+p,
+li,
+footer a {
+  font-family: var(--main-font);
+  color: var(--charcoal);
+}
+.divider {
+  width: 50%;
+  margin: 0 auto;
+}
+footer,
+footer a {
+  font-size: 18px;
+}
+.footer-email a {
+  text-decoration: none;
+}
