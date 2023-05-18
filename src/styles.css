@@ -9,7 +9,10 @@ h2 {
   font-family: var(--heading-font);
   color: var(--charcoal);
 }
-h3,
+h3 {
+  font-family: var(--main-font);
+}
+
 h4,
 p,
 li,
@@ -27,4 +30,25 @@ footer a {
 }
 .footer-email a {
   text-decoration: none;
+}
+.site-photo {
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+}
+.site-photo:hover {
+  opacity: 0.25;
+}
+.container {
+  position: relative;
+}
+.image-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+}
+.container:hover > .image-text {
+  display: block;
+  transition: 0.5s ease;
 }
